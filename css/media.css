@@ -1,0 +1,23 @@
+@media (max-width: 1024px) {
+    .cap_title{
+        font-size: 30px;
+    }
+    .works-content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:768px) {
+    .tab-pane.active{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tab-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .front-svg{ 
+        display: none;
+    }
+}
